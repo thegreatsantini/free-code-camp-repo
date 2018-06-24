@@ -4,11 +4,11 @@ function sumPrimes(num) {
     while (count <= num) {
         const endPoint = Math.ceil(Math.sqrt(count))
         for (let j = 2; j <= endPoint; j++) {
-            console.log(`${count} % ${j}= `, count % j)
 
+            console.log(`${count} % ${j}= `, count % j)
             if (count % j === 0 && count != j) {
 
-                console.log('******if statement', count,'\n')
+                console.log('******not prime', count,'\n')
                 break;
             }
             console.log('***keep',count, '\n')
@@ -20,4 +20,4 @@ function sumPrimes(num) {
     return sum
 }
 
-console.log(sumPrimes(10));
+console.log(sumPrimes(70));
