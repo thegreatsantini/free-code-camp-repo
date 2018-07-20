@@ -15,6 +15,6 @@ function sumFibs(num) {
     return sum;
 }
 
-console.log(sumFibs(75025));
+console.log(sumFibs(10));
 
 // REDO WITH WHILE LOOP
